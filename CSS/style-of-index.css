@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000;
+}
+a {
+    text-decoration: none;
+    color: #5afc10;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.text-btn {
+    color:#000;
+    font-weight: 600;
+    z-index: 0;
+}
+.btn {
+    background-color: #5afc10;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+    width: 107px;
+    height: 40px;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    left: 474px;
+    top: 458px;
+    position: absolute;
+    letter-spacing: 1.5px;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: #1e1e1e;
+    color:aqua;
+}
+a:hover {
+    color: gray;
+    transition: 0.3s ease-in-out;
+}
+.link {
+    display: block;
+
+}
+.text {
+    cursor: default;
+}
